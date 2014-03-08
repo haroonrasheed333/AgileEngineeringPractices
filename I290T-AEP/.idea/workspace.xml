@@ -84,7 +84,7 @@
       <file leaf-file-name="QuantityNew.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/QuantityNew.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="825">
+            <state line="3" column="0" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="825">
               <folding />
             </state>
           </provider>
@@ -93,25 +93,52 @@
       <file leaf-file-name="ScaledQuantity.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/ScaledQuantity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="54" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
+            <state line="56" column="5" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.0" vertical-offset="535" max-vertical-offset="960">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Unit.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Unit.java">
+      <file leaf-file-name="Bestable.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Bestable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="18" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1095">
+            <state line="8" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.28235295" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QuantityNewTest.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Bester.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Bester.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="24" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chance.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Chance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="52" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0" vertical-offset="355" max-vertical-offset="780">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChanceTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/edu/berkeley/ischool/aep/ChanceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="32" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0" vertical-offset="355" max-vertical-offset="795">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QuantityNewTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/edu/berkeley/ischool/aep/QuantityNewTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="21" selection-start="3395" selection-end="3395" vertical-scroll-proportion="0.5411765" vertical-offset="1045" max-vertical-offset="1470">
+            <state line="82" column="62" selection-start="3002" selection-end="3002" vertical-scroll-proportion="0.0" vertical-offset="1045" max-vertical-offset="1470">
               <folding />
             </state>
           </provider>
@@ -128,8 +155,6 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/tests/RectangleTests.java" />
-        <option value="$PROJECT_DIR$/tests/edu/berkeley/ischool/aep/ChanceTest.java" />
-        <option value="$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Chance.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Rectangle.java" />
         <option value="$PROJECT_DIR$/tests/edu/berkeley/ischool/aep/RectangleTests.java" />
         <option value="$PROJECT_DIR$/tests/edu/berkeley/ischool/aep/QuantityTest.java" />
@@ -138,8 +163,12 @@
         <option value="$PROJECT_DIR$/src/edu/berkeley/ischool/aep/ArithQuantity.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/ischool/aep/ArithmeticQuantity.java" />
         <option value="$PROJECT_DIR$/src/edu/berkeley/ischool/aep/QuantityNew.java" />
-        <option value="$PROJECT_DIR$/src/edu/berkeley/ischool/aep/ScaledQuantity.java" />
+        <option value="$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Chance.java" />
+        <option value="$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Bester.java" />
+        <option value="$PROJECT_DIR$/tests/edu/berkeley/ischool/aep/ChanceTest.java" />
         <option value="$PROJECT_DIR$/tests/edu/berkeley/ischool/aep/QuantityNewTest.java" />
+        <option value="$PROJECT_DIR$/src/edu/berkeley/ischool/aep/ScaledQuantity.java" />
+        <option value="$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Bestable.java" />
       </list>
     </option>
   </component>
@@ -175,7 +204,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,6 +260,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -254,16 +283,22 @@
     <property name="dynamic.classpath" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="edu.berkeley.ischool.aep" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="edu.berkeley.ischool.aep" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.QuantityNewTest">
+  <component name="RunManager" selected="JUnit.ChanceTest">
     <configuration default="false" name="RectangleTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="I290T-AEP" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -420,6 +455,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -445,19 +493,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -522,11 +557,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.QuantityNewTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.QuantityTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.RectangleTests" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.RectangleTests.allSidesShouldBeEqual" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.ChanceTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.ChanceTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.QuantityNewTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.QuantityTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.RectangleTests" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.RectangleTests.allSidesShouldBeEqual" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -562,7 +597,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="62" y="22" width="1378" height="878" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -580,13 +615,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19013062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44004944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19013062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.44004944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32880098" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -610,20 +645,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/edu/berkeley/ischool/aep/QuantityNewTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/QuantityNew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="194" selection-end="194" vertical-scroll-proportion="0.0" vertical-offset="165" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Quantity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="147" column="31" selection-start="4487" selection-end="4496" vertical-scroll-proportion="0.0" vertical-offset="45" max-vertical-offset="4245">
@@ -848,32 +869,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Chance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="443" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="265" max-vertical-offset="690">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/edu/berkeley/ischool/aep/ChanceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="13" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="235" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.1125" vertical-offset="0" max-vertical-offset="400">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Unit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="18" selection-start="1502" selection-end="1502" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1095">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="118" selection-end="118" vertical-scroll-proportion="0.1125" vertical-offset="0" max-vertical-offset="400" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/QuantityNew.java">
@@ -883,16 +881,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/ScaledQuantity.java">
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Bester.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="54" selection-start="1377" selection-end="1377" vertical-scroll-proportion="0.0" vertical-offset="700" max-vertical-offset="1125">
+        <state line="12" column="24" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Unit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="18" selection-start="1502" selection-end="1502" vertical-scroll-proportion="1.6588235" vertical-offset="0" max-vertical-offset="1095">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/edu/berkeley/ischool/aep/ChanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="32" selection-start="1471" selection-end="1471" vertical-scroll-proportion="0.0" vertical-offset="370" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Chance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="52" selection-start="1126" selection-end="1126" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="780">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/edu/berkeley/ischool/aep/QuantityNewTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="21" selection-start="3395" selection-end="3395" vertical-scroll-proportion="0.5411765" vertical-offset="1045" max-vertical-offset="1470">
+        <state line="82" column="62" selection-start="3002" selection-end="3002" vertical-scroll-proportion="0.0" vertical-offset="1045" max-vertical-offset="1470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/ScaledQuantity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="5" selection-start="1718" selection-end="1718" vertical-scroll-proportion="0.0" vertical-offset="535" max-vertical-offset="960">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/edu/berkeley/ischool/aep/Bestable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="145" selection-end="145" vertical-scroll-proportion="0.28235295" vertical-offset="0" max-vertical-offset="425">
           <folding />
         </state>
       </provider>

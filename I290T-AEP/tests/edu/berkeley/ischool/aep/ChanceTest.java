@@ -41,4 +41,13 @@ public class ChanceTest {
         Chance dieThrow = new Chance(1/6);
         assertEquals(new Chance(1/6+5/6-(1/6*5/6)), dieThrow.or(new Chance(5/6)));
     }
+
+    @Test
+    public void shouldReturnTheBestOfThreeChances() {
+        Chance[] ch = new Chance[3];
+        ch[0] = new Chance(0.5);
+        ch[1] = new Chance(1.0);
+        ch[2] = new Chance(0.8);
+        assertEquals(new Chance(1.0), new Bester(ch).findBest());
+    }
 }

@@ -3,7 +3,7 @@ package edu.berkeley.ischool.aep;
 /**
  * Created by haroon on 2/21/14.
  */
-public class ScaledQuantity {
+public class ScaledQuantity implements Bestable {
     protected final double value;
     protected final Unit units;
 
@@ -44,7 +44,9 @@ public class ScaledQuantity {
         return value + " " + units;
     }
 
-    public boolean betterThan(ScaledQuantity other) {
+    @Override
+    public boolean betterThan(Bestable oth) {
+        ScaledQuantity other = (ScaledQuantity) oth;
         if (this.units.isConvertibleTo(other.units)) {
             double otherValue = other.units.convertTo(other.value, this.units);
             return this.value > otherValue;
@@ -52,18 +54,5 @@ public class ScaledQuantity {
         else {
             throw new RuntimeException("Cannot compare " + this.units + " with " + other.units);
         }
-    }
-
-    public static ScaledQuantity findBestQuantity(ScaledQuantity[] quantityArray) {
-        for (int i = 0; i < quantityArray.length - 1; i++) {
-            for (int j = 0; j < quantityArray.length - (i + 1); j++) {
-                if (!quantityArray[j].betterThan(quantityArray[j+1])) {
-                    ScaledQuantity temp = quantityArray[j];
-                    quantityArray[j] = quantityArray[j+1];
-                    quantityArray[j+1] = temp;
-                }
-            }
-        }
-        return quantityArray[0];
     }
 }

@@ -83,7 +83,7 @@ public class QuantityNewTest {
         quantityArray[1] = new ScaledQuantity(Unit.FEET, 100);
         quantityArray[2] = new ScaledQuantity(Unit.INCHES, 100);
 
-        assertEquals(new ScaledQuantity(Unit.FEET, 100), ScaledQuantity.findBestQuantity(quantityArray));
+        assertEquals(new ScaledQuantity(Unit.FEET, 100), new Bester(quantityArray).findBest());
     }
 
     @Test(expected = RuntimeException.class)
@@ -93,6 +93,6 @@ public class QuantityNewTest {
         quantityArray[1] = new ScaledQuantity(Unit.INCHES, 100);
         quantityArray[2] = new ScaledQuantity(Unit.FAHRENHEIT, 50);
 
-        assertEquals(new ScaledQuantity(Unit.FEET, 100), ScaledQuantity.findBestQuantity(quantityArray));
+        assertEquals(new ScaledQuantity(Unit.FEET, 100), new Bester(quantityArray).findBest());
     }
 }

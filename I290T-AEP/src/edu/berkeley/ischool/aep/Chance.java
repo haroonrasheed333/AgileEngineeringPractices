@@ -3,7 +3,7 @@ package edu.berkeley.ischool.aep;
 /**
  * Created by haroon on 1/31/14.
  */
-public class Chance {
+public class Chance implements Bestable{
     private final double probability;
 
     public Chance (double probability) {
@@ -36,5 +36,11 @@ public class Chance {
     public Chance or (Chance other){
         //return (new Chance(this.probability+other.probability-this.probability*other.probability));
         return (this.not().and(other.not())).not();
+    }
+
+    @Override
+    public boolean betterThan(Bestable oth) {
+        Chance other = (Chance) oth;
+        return this.probability > other.probability;
     }
 }
